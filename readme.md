@@ -12,4 +12,5 @@
 
 ### Local Development 
 - `source venv/bin/activate`
-- Start the app: `streamlit run main.py`
+- Start the app: `streamlit run parse.py` to parse gen ai output in a specific format
+- Start the app: `streamlit run eval.py` to generate question and answers and use QAEvalChain to do self evaluation
